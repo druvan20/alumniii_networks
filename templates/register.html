@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Register</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+      </ul>
+    </nav>
+    <main>
+            <h1>Registration</h1>
+            <form method="POST">
+              {{ form.hidden_tag() }}
+              <label for="username">Username:</label>
+              {{ form.username() }}
+              <label for="email">Email:</label>
+              {{ form.email() }}
+              <label for="password">Password:</label>
+              {{ form.password() }}
+              <label for="confirm_password">Confirm Password:</label>
+              {{ form.confirm_password() }} {{ form.submit() }}
+            </form>
+          </body>
+        </html>
+      </form>
+    </main>
+    <footer>&copy; 2023 Alumni Network</footer>
+  
+    <script src="{{ url_for('static', filename='js/registartion.js') }}"></script>
+  </body>
+</html>

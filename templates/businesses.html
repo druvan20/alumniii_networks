@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Business Directory</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/buissness.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Business Directory</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+
+        <li><a href="{{ url_for('mentorship') }}">Mentorship</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="business-list">
+        <h2>Featured Businesses</h2>
+        <ol>
+          <li>
+            <h3>Chai Wala</h3>
+            <p>
+              A "chaiwala" refers to a traditional tea vendor in India, known
+              for serving aromatic and flavorful cups of chai (tea). These
+              humble street-side entrepreneurs play a vital role in Indian
+              culture, offering respite to weary travelers, office-goers, and
+              locals alike. Chaiwalas brew a unique blend of tea infused with
+              aromatic spices like cardamom, ginger, and cloves, creating a
+              sensory experience that transcends its humble origins. Beyond the
+              beverage, chaiwalas often serve as social hubs, fostering
+              conversations and camaraderie. They symbolize the warmth and
+              hospitality deeply ingrained in Indian society, making a simple
+              tea stop more than just a refreshment; it's a cultural
+              institution.
+            </p>
+            <img
+              src="{{ url_for('static', filename='my_image.jpg') }}"
+              alt="img"
+              class="right-image"
+            />
+          </li>
+
+          <li>
+            <h3>Trade assistant</h3>
+            <p>
+              A trade assistant is a valuable role in various industries,
+              providing crucial support to tradespeople such as plumbers,
+              electricians, carpenters, and mechanics. They assist with tasks
+              like carrying tools and materials, preparing work areas, and
+              cleaning up after jobs. Trade assistants play a significant role
+              in ensuring the efficiency and safety of projects. They may also
+              help with basic tasks, enabling skilled tradespeople to focus on
+              technical aspects of their work. With the right skills and
+              experience, trade assistants can advance their careers and even
+              become skilled tradespeople themselves, contributing to the
+              overall success of construction, maintenance, and repair projects.
+            </p>
+            <img
+              src="{{ url_for('static', filename='my_image2.jpg') }}"
+              alt="img"
+              class="right-image"
+            />
+          </li>
+        </ol>
+      </section>
+    </main>
+    <footer>&copy; 2023 Alumni Network</footer>
+  </body>
+</html>

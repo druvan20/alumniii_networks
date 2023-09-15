@@ -1,0 +1,97 @@
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background: url(https://media.istockphoto.com/id/1132505361/photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard.webp?b=1&s=170667a&w=0&k=20&c=jkMBPKK_6Ebhp1kawG5idBiptAjrAfv5ue4aXxDROKc=);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome {
+  text-align: center;
+  justify-content: center;
+}
+.xyz {
+  margin-bottom: 10px;
+}
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #11f301;
+}
+
+header h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+nav ul {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

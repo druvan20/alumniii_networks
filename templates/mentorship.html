@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mentorship Opportunities</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/mentorship.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Mentorship Opportunities</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('businesses') }}">Businesses</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="mentorship-list">
+        <h2>Mentorship Opportunities</h2>
+        <ol>
+           
+              <img
+              src="{{ url_for('static', filename='mentoring-program-slide1.png') }}"
+              alt="img"
+              class="right-image"
+            /> <li>
+                <h3>Randstad’s leadership development mentoring program</h3>
+                <p>Randstad's leadership development mentoring program is a strategic initiative aimed at fostering professional growth and leadership skills among its employees. This program pairs experienced leaders within the organization with emerging talents, creating a mentorship dynamic that allows for knowledge transfer, skill development, and career guidance. Through regular one-on-one interactions and targeted training, mentees gain valuable insights, confidence, and a deeper understanding of the company's culture. By investing in this program, Randstad not only ensures a pipeline of capable leaders but also cultivates a collaborative and empowering work environment that propels both mentors and mentees toward personal and organizational success</p>
+             
+            </li>
+            <li>
+                <h3>New York Life’s Empower Mentorship Program</h3>
+                <p>MeNew York Life's Empower Mentorship Program is a transformative initiative designed to empower individuals by providing valuable mentorship opportunities. This program offers guidance, support, and knowledge-sharing, fostering personal and professional growth. It connects experienced mentors with enthusiastic mentees, facilitating a dynamic exchange of insights and skills. Through mentorship, participants gain valuable insights into various aspects of life and career development, enabling them to navigate challenges and achieve their goals. New York Life's commitment to empowering individuals shines through this program, creating a supportive community where mentorship thrives, ultimately benefiting both mentors and mentees in their personal and professional journeys.</p>
+            </li>
+           
+    </section>
+    </main>
+
+    <footer>&copy; 2023 Alumni Network</footer>
+    <script src="{{ url_for('static', filename='js/mentorship_opportunities.js') }}"></script>
+  </body>
+</html>
